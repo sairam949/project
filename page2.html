@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural</title>
+    <link rel="icon" type="image/x-icon" href="title.jpg">
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="box.css" />
+
+</head>
+<body>
+    <h2 id="top">RVR & JC COLLEGE OF ENGINEERING</h2>
+    <nav>
+        <a href="#">Colorido</a> 
+        <a href="#">Home</a> 
+        <a href="#">Events</a> 
+        <a href="#">People</a>
+        <a href="#">Clubs</a>
+        <a href="#" class="about">About</a>
+    </nav>
+    <section id="center">
+        <img class="i1" src="img1.jpg" alt="" height="350px" width="85%" id="imgs">   
+        <script>
+            var i = 0;
+var images = [];
+var counter = 900;
+
+images[0] = "img1.jpg";
+images[1] = "img2.jpg";
+images[2] = "img3.jpg";
+images[3] = "img4.jpg";
+images[4] = "img5.jpg";
+images[5] = "img6.jpg";
+
+function change() {
+    document.getElementById("imgs").src = images[i];
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
+    }
+}
+
+setInterval(change, 5 * counter);
+        </script> 
+    </section>
+    <section>
+        <div class="d"id="box1" >
+            <figure style="margin:0;padding-left: 0%;">
+            <img src="img2.jpg" style="width: 200px;height: 80px;">
+            <figcaption>Baratanatyam</figcaption>
+            </figure>
+        </div>
+        <div class="d"id="box2" >
+            <h3>inside box</h3>
+            <img src="img2.jpg" style="width: 200px;height: 60px;">
+        </div>
+        <div class="d"id="box3"  >
+            <h3>inside box</h3>
+            <img src="img2.jpg" style="width: 200px;height: 60px;">
+        </div>
+</section>
+    
+</body>
+</html>

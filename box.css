@@ -1,0 +1,9 @@
+.d{
+    border:2px solid black;
+    background-color: white;
+    padding: 20px;
+    margin-left: 30px;
+    float:left;
+    width:200px;
+    height: 250px;
+}
